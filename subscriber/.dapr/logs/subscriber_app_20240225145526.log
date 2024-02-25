@@ -1,0 +1,2322 @@
+== APP - subscriber ==  * Serving Flask app 'app'
+== APP - subscriber ==  * Debug mode: off
+== APP - subscriber == WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+== APP - subscriber ==  * Running on http://127.0.0.1:6001
+== APP - subscriber == Press CTRL+C to quit
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:27] "GET /dapr/config HTTP/1.1" 404 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:27] "GET /dapr/subscribe HTTP/1.1" 200 -
+== APP - subscriber == Dapr pub/sub is subscribed to: [{"pubsubname": "orderpubsub", "topic": "orders", "route": "orders"}]
+== APP - subscriber == Subscriber received : 1
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 2
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 3
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 4
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 5
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 6
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 7
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 8
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 9
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 10
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 11
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 12
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 13
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 14
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 15
+== APP - subscriber == Subscriber received : 16
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 17
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 18
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 19
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 20
+== APP - subscriber == Subscriber received : 21
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 22
+== APP - subscriber == Subscriber received : 23
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 24
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 25
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 26
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 27
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 28
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 29
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 30
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:55:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 31
+== APP - subscriber == Subscriber received : 32
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 33
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 34
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 35
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 36
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 37
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 38
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 39
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 40
+== APP - subscriber == Subscriber received : 41
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 42
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 43
+== APP - subscriber == Subscriber received : 44
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 45
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 46
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 47
+== APP - subscriber == Subscriber received : 48
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 49
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 50
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 51
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 52
+== APP - subscriber == Subscriber received : 53
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 54
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 55
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 56
+== APP - subscriber == Subscriber received : 57
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 58
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 59
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 60
+== APP - subscriber == Subscriber received : 61
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 62
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 63
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 64
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 65
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 66
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 67
+== APP - subscriber == Subscriber received : 68
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 69
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 70
+== APP - subscriber == Subscriber received : 71
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 72
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 73
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 74
+== APP - subscriber == Subscriber received : 75
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 76
+== APP - subscriber == Subscriber received : 77
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 78
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 79
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 80
+== APP - subscriber == Subscriber received : 81
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 82
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 83
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 84
+== APP - subscriber == Subscriber received : 85
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 86
+== APP - subscriber == Subscriber received : 87
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 88
+== APP - subscriber == Subscriber received : 89
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 90
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:56:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 91
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 92
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 93
+== APP - subscriber == Subscriber received : 94
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 95
+== APP - subscriber == Subscriber received : 96
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 97
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 98
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 99
+== APP - subscriber == Subscriber received : 100
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 101
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 102
+== APP - subscriber == Subscriber received : 103
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 104
+== APP - subscriber == Subscriber received : 105
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 106
+== APP - subscriber == Subscriber received : 107
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 108
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 109
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 110
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 111
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 112
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 113
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 114
+== APP - subscriber == Subscriber received : 115
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 116
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 117
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 118
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 119
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 120
+== APP - subscriber == Subscriber received : 121
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 122
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 123
+== APP - subscriber == Subscriber received : 124
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 125
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 126
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 127
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 128
+== APP - subscriber == Subscriber received : 129
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 130
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 131
+== APP - subscriber == Subscriber received : 132
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 133
+== APP - subscriber == Subscriber received : 134
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 135
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 136
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 137
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 138
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 139
+== APP - subscriber == Subscriber received : 140
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 141
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 142
+== APP - subscriber == Subscriber received : 143
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 144
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 145
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 146
+== APP - subscriber == Subscriber received : 147
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 148
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 149
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:57:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 150
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 151
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 152
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 153
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 154
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 155
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 156
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 157
+== APP - subscriber == Subscriber received : 158
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 159
+== APP - subscriber == Subscriber received : 160
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 161
+== APP - subscriber == Subscriber received : 162
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 163
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 164
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 165
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 166
+== APP - subscriber == Subscriber received : 167
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 168
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 169
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 170
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 171
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 172
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 173
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 174
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 175
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 176
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 177
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 178
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 179
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 180
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 181
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 182
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 183
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 184
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 185
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 186
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 187
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 188
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 189
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 190
+== APP - subscriber == Subscriber received : 191
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 192
+== APP - subscriber == Subscriber received : 193
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 194
+== APP - subscriber == Subscriber received : 195
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 196
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 197
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 198
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 199
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 200
+== APP - subscriber == Subscriber received : 201
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 202
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 203
+== APP - subscriber == Subscriber received : 204
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 205
+== APP - subscriber == Subscriber received : 206
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 207
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 208
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 209
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:58:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 210
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 211
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 212
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 213
+== APP - subscriber == Subscriber received : 214
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 215
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 216
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 217
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 218
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 219
+== APP - subscriber == Subscriber received : 220
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 221
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 222
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 223
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 224
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 225
+== APP - subscriber == Subscriber received : 226
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 227
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 228
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 229
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 230
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 231
+== APP - subscriber == Subscriber received : 232
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 233
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 234
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 235
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 236
+== APP - subscriber == Subscriber received : 237
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 238
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 239
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 240
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 241
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 242
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 243
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 244
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 245
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 246
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 247
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 248
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 249
+== APP - subscriber == Subscriber received : 250
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 251
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 252
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 253
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 254
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 255
+== APP - subscriber == Subscriber received : 256
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 257
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 258
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 259
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 260
+== APP - subscriber == Subscriber received : 261
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 262
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 263
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 264
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 265
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 266
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 267
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 268
+== APP - subscriber == Subscriber received : 269
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 14:59:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 270
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 271
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 272
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 273
+== APP - subscriber == Subscriber received : 274
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 275
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 276
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 277
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 278
+== APP - subscriber == Subscriber received : 279
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 280
+== APP - subscriber == Subscriber received : 281
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 282
+== APP - subscriber == Subscriber received : 283
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 284
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 285
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 286
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 287
+== APP - subscriber == Subscriber received : 288
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 289
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 290
+== APP - subscriber == Subscriber received : 291
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 292
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 293
+== APP - subscriber == Subscriber received : 294
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 295
+== APP - subscriber == Subscriber received : 296
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 297
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 298
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 299
+== APP - subscriber == Subscriber received : 300
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 301
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 302
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 303
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 304
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 305
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 306
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 307
+== APP - subscriber == Subscriber received : 308
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 309
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 310
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 311
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 312
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 313
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 314
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 315
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 316
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 317
+== APP - subscriber == Subscriber received : 318
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 319
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 320
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 321
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 322
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 323
+== APP - subscriber == Subscriber received : 324
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 325
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 326
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 327
+== APP - subscriber == Subscriber received : 328
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:00:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 329
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 330
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 331
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 332
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 333
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 334
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 335
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 336
+== APP - subscriber == Subscriber received : 337
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 338
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 339
+== APP - subscriber == Subscriber received : 340
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 341
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 342
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 343
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 344
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 345
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 346
+== APP - subscriber == Subscriber received : 347
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 348
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 349
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 350
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 351
+== APP - subscriber == Subscriber received : 352
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 353
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 354
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 355
+== APP - subscriber == Subscriber received : 356
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 357
+== APP - subscriber == Subscriber received : 358
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 359
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 360
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 361
+== APP - subscriber == Subscriber received : 362
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 363
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 364
+== APP - subscriber == Subscriber received : 365
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 366
+== APP - subscriber == Subscriber received : 367
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 368
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 369
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 370
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 371
+== APP - subscriber == Subscriber received : 372
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 373
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 374
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 375
+== APP - subscriber == Subscriber received : 376
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 377
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 378
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 379
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 380
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 381
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 382
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 383
+== APP - subscriber == Subscriber received : 384
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 385
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 386
+== APP - subscriber == Subscriber received : 387
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:01:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 388
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 389
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 390
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 391
+== APP - subscriber == Subscriber received : 392
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 393
+== APP - subscriber == Subscriber received : 394
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 395
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 396
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 397
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 398
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 399
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 400
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 401
+== APP - subscriber == Subscriber received : 402
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 403
+== APP - subscriber == Subscriber received : 404
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 405
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 406
+== APP - subscriber == Subscriber received : 407
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 408
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 409
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 410
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 411
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 412
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 413
+== APP - subscriber == Subscriber received : 414
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 415
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 416
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 417
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 418
+== APP - subscriber == Subscriber received : 419
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 420
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 421
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 422
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 423
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 424
+== APP - subscriber == Subscriber received : 425
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 426
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 427
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 428
+== APP - subscriber == Subscriber received : 429
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 430
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 431
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 432
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 433
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 434
+== APP - subscriber == Subscriber received : 435
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 436
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 437
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 438
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 439
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 440
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 441
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 442
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 443
+== APP - subscriber == Subscriber received : 444
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 445
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 446
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:02:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 447
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 448
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 449
+== APP - subscriber == Subscriber received : 450
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 451
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 452
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 453
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 454
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 455
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 456
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 457
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 458
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 459
+== APP - subscriber == Subscriber received : 460
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 461
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 462
+== APP - subscriber == Subscriber received : 463
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 464
+== APP - subscriber == Subscriber received : 465
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 466
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 467
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 468
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 469
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 470
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 471
+== APP - subscriber == Subscriber received : 472
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 473
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 474
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 475
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 476
+== APP - subscriber == Subscriber received : 477
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 478
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 479
+== APP - subscriber == Subscriber received : 480
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 481
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 482
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 483
+== APP - subscriber == Subscriber received : 484
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 485
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 486
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 487
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 488
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 489
+== APP - subscriber == Subscriber received : 490
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 491
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 492
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 493
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 494
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 495
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 496
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 497
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 498
+== APP - subscriber == Subscriber received : 499
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 500
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 501
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 502
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 503
+== APP - subscriber == Subscriber received : 504
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 505
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 506
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:03:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 507
+== APP - subscriber == Subscriber received : 508
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 509
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 510
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 511
+== APP - subscriber == Subscriber received : 512
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 513
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 514
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 515
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 516
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 517
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 518
+== APP - subscriber == Subscriber received : 519
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 520
+== APP - subscriber == Subscriber received : 521
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 522
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 523
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 524
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 525
+== APP - subscriber == Subscriber received : 526
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 527
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 528
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 529
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 530
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 531
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 532
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 533
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 534
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 535
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 536
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 537
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 538
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 539
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 540
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 541
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 542
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 543
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 544
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 545
+== APP - subscriber == Subscriber received : 546
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 547
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 548
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 549
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 550
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 551
+== APP - subscriber == Subscriber received : 552
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 553
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 554
+== APP - subscriber == Subscriber received : 555
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 556
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 557
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 558
+== APP - subscriber == Subscriber received : 559
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 560
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 561
+== APP - subscriber == Subscriber received : 562
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 563
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 564
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 565
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:04:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 566
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 567
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 568
+== APP - subscriber == Subscriber received : 569
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 570
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 571
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 572
+== APP - subscriber == Subscriber received : 573
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 574
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 575
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 576
+== APP - subscriber == Subscriber received : 577
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 578
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 579
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 580
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 581
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 582
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 583
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 584
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 585
+== APP - subscriber == Subscriber received : 586
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 587
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 588
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 589
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 590
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 591
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 592
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 593
+== APP - subscriber == Subscriber received : 594
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 595
+== APP - subscriber == Subscriber received : 596
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 597
+== APP - subscriber == Subscriber received : 598
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 599
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 600
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 601
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 602
+== APP - subscriber == Subscriber received : 603
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 604
+== APP - subscriber == Subscriber received : 605
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 606
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 607
+== APP - subscriber == Subscriber received : 608
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 609
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 610
+== APP - subscriber == Subscriber received : 611
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 612
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 613
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 614
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 615
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 616
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 617
+== APP - subscriber == Subscriber received : 618
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 619
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 620
+== APP - subscriber == Subscriber received : 621
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 622
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 623
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 624
+== APP - subscriber == Subscriber received : 625
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:05:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 626
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 627
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 628
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 629
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 630
+== APP - subscriber == Subscriber received : 631
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 632
+== APP - subscriber == Subscriber received : 633
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 634
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 635
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 636
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 637
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 638
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 639
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 640
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 641
+== APP - subscriber == Subscriber received : 642
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 643
+== APP - subscriber == Subscriber received : 644
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 645
+== APP - subscriber == Subscriber received : 646
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 647
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 648
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 649
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 650
+== APP - subscriber == Subscriber received : 651
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 652
+== APP - subscriber == Subscriber received : 653
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 654
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 655
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 656
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 657
+== APP - subscriber == Subscriber received : 658
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 659
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 660
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 661
+== APP - subscriber == Subscriber received : 662
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 663
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 664
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 665
+== APP - subscriber == Subscriber received : 666
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 667
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 668
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 669
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 670
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 671
+== APP - subscriber == Subscriber received : 672
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 673
+== APP - subscriber == Subscriber received : 674
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 675
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 676
+== APP - subscriber == Subscriber received : 677
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 678
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 679
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 680
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 681
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 682
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 683
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 684
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:06:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 685
+== APP - subscriber == Subscriber received : 686
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 687
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 688
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 689
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 690
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 691
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 692
+== APP - subscriber == Subscriber received : 693
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 694
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 695
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 696
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 697
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 698
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 699
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 700
+== APP - subscriber == Subscriber received : 701
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 702
+== APP - subscriber == Subscriber received : 703
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 704
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 705
+== APP - subscriber == Subscriber received : 706
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 707
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 708
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 709
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 710
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 711
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 712
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 713
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 714
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 715
+== APP - subscriber == Subscriber received : 716
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 717
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 718
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 719
+== APP - subscriber == Subscriber received : 720
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 721
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 722
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 723
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 724
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 725
+== APP - subscriber == Subscriber received : 726
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 727
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 728
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 729
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 730
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 731
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 732
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 733
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 734
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 735
+== APP - subscriber == Subscriber received : 736
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 737
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 738
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 739
+== APP - subscriber == Subscriber received : 740
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 741
+== APP - subscriber == Subscriber received : 742
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 743
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:07:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 744
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 745
+== APP - subscriber == Subscriber received : 746
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 747
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 748
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 749
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 750
+== APP - subscriber == Subscriber received : 751
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 752
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 753
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 754
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 755
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 756
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 757
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 758
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 759
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 760
+== APP - subscriber == Subscriber received : 761
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 762
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 763
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 764
+== APP - subscriber == Subscriber received : 765
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 766
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 767
+== APP - subscriber == Subscriber received : 768
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 769
+== APP - subscriber == Subscriber received : 770
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 771
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 772
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 773
+== APP - subscriber == Subscriber received : 774
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 775
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 776
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 777
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 778
+== APP - subscriber == Subscriber received : 779
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 780
+== APP - subscriber == Subscriber received : 781
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 782
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 783
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 784
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 785
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 786
+== APP - subscriber == Subscriber received : 787
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 788
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 789
+== APP - subscriber == Subscriber received : 790
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 791
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 792
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 793
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 794
+== APP - subscriber == Subscriber received : 795
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 796
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 797
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 798
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 799
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 800
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 801
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 802
+== APP - subscriber == Subscriber received : 803
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:08:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 804
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 805
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 806
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 807
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 808
+== APP - subscriber == Subscriber received : 809
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 810
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 811
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 812
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 813
+== APP - subscriber == Subscriber received : 814
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 815
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 816
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 817
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 818
+== APP - subscriber == Subscriber received : 819
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 820
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 821
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 822
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 823
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 824
+== APP - subscriber == Subscriber received : 825
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 826
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 827
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 828
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 829
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 830
+== APP - subscriber == Subscriber received : 831
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 832
+== APP - subscriber == Subscriber received : 833
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 834
+== APP - subscriber == Subscriber received : 835
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 836
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 837
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 838
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 839
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 840
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 841
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 842
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 843
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 844
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 845
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 846
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 847
+== APP - subscriber == Subscriber received : 848
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 849
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 850
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 851
+== APP - subscriber == Subscriber received : 852
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 853
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 854
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 855
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 856
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 857
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 858
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 859
+== APP - subscriber == Subscriber received : 860
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 861
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 862
+== APP - subscriber == Subscriber received : 863
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:09:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 864
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 865
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 866
+== APP - subscriber == Subscriber received : 867
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 868
+== APP - subscriber == Subscriber received : 869
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 870
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 871
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 872
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 873
+== APP - subscriber == Subscriber received : 874
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 875
+== APP - subscriber == Subscriber received : 876
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 877
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 878
+== APP - subscriber == Subscriber received : 879
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 880
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 881
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 882
+== APP - subscriber == Subscriber received : 883
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 884
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 885
+== APP - subscriber == Subscriber received : 886
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 887
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 888
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 889
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 890
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 891
+== APP - subscriber == Subscriber received : 892
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 893
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 894
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 895
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 896
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 897
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 898
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 899
+== APP - subscriber == Subscriber received : 900
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 901
+== APP - subscriber == Subscriber received : 902
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 903
+== APP - subscriber == Subscriber received : 904
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 905
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 906
+== APP - subscriber == Subscriber received : 907
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 908
+== APP - subscriber == Subscriber received : 909
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 910
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 911
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 912
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 913
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 914
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 915
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 916
+== APP - subscriber == Subscriber received : 917
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 918
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 919
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 920
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 921
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 922
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:10:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 923
+== APP - subscriber == Subscriber received : 924
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 925
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 926
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 927
+== APP - subscriber == Subscriber received : 928
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 929
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 930
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 931
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 932
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 933
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 934
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 935
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 936
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 937
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 938
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 939
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 940
+== APP - subscriber == Subscriber received : 941
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 942
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 943
+== APP - subscriber == Subscriber received : 944
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 945
+== APP - subscriber == Subscriber received : 946
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 947
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 948
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 949
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 950
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 951
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 952
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 953
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 954
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 955
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 956
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 957
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 958
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 959
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 960
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 961
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 962
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 963
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 964
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 965
+== APP - subscriber == Subscriber received : 966
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 967
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 968
+== APP - subscriber == Subscriber received : 969
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 970
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 971
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 972
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 973
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 974
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 975
+== APP - subscriber == Subscriber received : 976
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 977
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 978
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 979
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 980
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 981
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:11:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 982
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 983
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 984
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 985
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 986
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 987
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 988
+== APP - subscriber == Subscriber received : 989
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 990
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 991
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 992
+== APP - subscriber == Subscriber received : 993
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 994
+== APP - subscriber == Subscriber received : 995
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 996
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 997
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 998
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 999
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1000
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1001
+== APP - subscriber == Subscriber received : 1002
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1003
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1004
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1005
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1006
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1007
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1008
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1009
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1010
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1011
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1012
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1013
+== APP - subscriber == Subscriber received : 1014
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1015
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1016
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1017
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1018
+== APP - subscriber == Subscriber received : 1019
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1020
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1021
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1022
+== APP - subscriber == Subscriber received : 1023
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1024
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1025
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1026
+== APP - subscriber == Subscriber received : 1027
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1028
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1029
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1030
+== APP - subscriber == Subscriber received : 1031
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1032
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1033
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1034
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1035
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1036
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1037
+== APP - subscriber == Subscriber received : 1038
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1039
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1040
+== APP - subscriber == Subscriber received : 1041
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:12:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1042
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1043
+== APP - subscriber == Subscriber received : 1044
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1045
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1046
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1047
+== APP - subscriber == Subscriber received : 1048
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1049
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1050
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1051
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1052
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1053
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1054
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1055
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1056
+== APP - subscriber == Subscriber received : 1057
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1058
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1059
+== APP - subscriber == Subscriber received : 1060
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1061
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1062
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1063
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1064
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1065
+== APP - subscriber == Subscriber received : 1066
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1067
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1068
+== APP - subscriber == Subscriber received : 1069
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1070
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1071
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1072
+== APP - subscriber == Subscriber received : 1073
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1074
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1075
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1076
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1077
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1078
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1079
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1080
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1081
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1082
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1083
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1084
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1085
+== APP - subscriber == Subscriber received : 1086
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1087
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1088
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:46] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1089
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1090
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1091
+== APP - subscriber == Subscriber received : 1092
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1093
+== APP - subscriber == Subscriber received : 1094
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1095
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1096
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:55] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1097
+== APP - subscriber == Subscriber received : 1098
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:56] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:57] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1099
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:58] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1100
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:13:59] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1101
+== APP - subscriber == Subscriber received : 1102
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:00] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1103
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:01] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:02] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1104
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:03] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1105
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:04] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1106
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:05] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1107
+== APP - subscriber == Subscriber received : 1108
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:06] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:07] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1109
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:08] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1110
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1111
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1112
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1113
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1114
+== APP - subscriber == Subscriber received : 1115
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1116
+== APP - subscriber == Subscriber received : 1117
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1118
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:17] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1119
+== APP - subscriber == Subscriber received : 1120
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:18] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:19] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1121
+== APP - subscriber == Subscriber received : 1122
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:20] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:21] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1123
+== APP - subscriber == Subscriber received : 1124
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:22] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:23] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1125
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:24] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1126
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:25] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1127
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:26] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1128
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:27] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1129
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:28] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1130
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:29] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1131
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:30] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1132
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:31] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1133
+== APP - subscriber == Subscriber received : 1134
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:32] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:33] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1135
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:34] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1136
+== APP - subscriber == Subscriber received : 1137
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:35] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:36] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1138
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:37] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1139
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:38] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1140
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:39] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1141
+== APP - subscriber == Subscriber received : 1142
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:40] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:41] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1143
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:42] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1144
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:43] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1145
+== APP - subscriber == Subscriber received : 1146
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:44] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:45] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1147
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:47] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1148
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:48] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1149
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:49] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1150
+== APP - subscriber == Subscriber received : 1151
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:50] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:51] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1152
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:52] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1153
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:53] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1154
+== APP - subscriber == Subscriber received : 1155
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:54] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 1156
+== APP - subscriber == 127.0.0.1 - - [25/Feb/2024 15:14:55] "POST /orders HTTP/1.1" 200 -
+
+termination signal received: shutting down

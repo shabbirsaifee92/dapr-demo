@@ -1,0 +1,23 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: orderpubsub
+spec:
+  type: pubsub.redis
+  version: v1
+  metadata:
+  - name: redisHost
+    value: localhost:6379
+  - name: redisPassword
+    value: ""
+
+# apiVersion: dapr.io/v1alpha1
+# kind: Component
+# metadata:
+#   name: orderpubsub
+# spec:
+#   version: v1
+#   type: pubsub.rabbitmq
+#   metadata:
+#   - name: host
+#     value: "amqp://guest:guest@localhost:5672"

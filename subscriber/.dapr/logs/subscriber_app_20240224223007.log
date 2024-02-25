@@ -1,0 +1,28 @@
+== APP - subscriber ==  * Serving Flask app 'app'
+== APP - subscriber ==  * Debug mode: off
+== APP - subscriber == WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+== APP - subscriber ==  * Running on http://127.0.0.1:6001
+== APP - subscriber == Press CTRL+C to quit
+== APP - subscriber == 127.0.0.1 - - [24/Feb/2024 22:30:07] "GET /dapr/config HTTP/1.1" 404 -
+== APP - subscriber == 127.0.0.1 - - [24/Feb/2024 22:30:07] "GET /dapr/subscribe HTTP/1.1" 200 -
+== APP - subscriber == Dapr pub/sub is subscribed to: [{"pubsubname": "orderpubsub", "topic": "orders", "route": "orders"}]
+== APP - subscriber == Subscriber received : 1
+== APP - subscriber == 127.0.0.1 - - [24/Feb/2024 22:30:09] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 2
+== APP - subscriber == 127.0.0.1 - - [24/Feb/2024 22:30:10] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 3
+== APP - subscriber == 127.0.0.1 - - [24/Feb/2024 22:30:11] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 4
+== APP - subscriber == 127.0.0.1 - - [24/Feb/2024 22:30:12] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 5
+== APP - subscriber == 127.0.0.1 - - [24/Feb/2024 22:30:13] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 6
+== APP - subscriber == 127.0.0.1 - - [24/Feb/2024 22:30:14] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == 127.0.0.1 - - [24/Feb/2024 22:30:15] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 7
+== APP - subscriber == Subscriber received : 8
+== APP - subscriber == 127.0.0.1 - - [24/Feb/2024 22:30:16] "POST /orders HTTP/1.1" 200 -
+== APP - subscriber == Subscriber received : 9
+== APP - subscriber == 127.0.0.1 - - [24/Feb/2024 22:30:17] "POST /orders HTTP/1.1" 200 -
+
+termination signal received: shutting down

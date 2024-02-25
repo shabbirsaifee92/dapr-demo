@@ -1,0 +1,59 @@
+Starting Dapr with id subscriber. HTTP Port: 53081. gRPC Port: 53082
+Updating metadata for cliPID: 78699
+time="2024-02-24T22:30:07.461454-05:00" level=info msg="Starting Dapr Runtime -- version 1.12.5 -- commit 229d158e9f2a49f7428507361353f4db012bfb6f" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.461489-05:00" level=info msg="Log level set to: info" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.461656-05:00" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime.security type=log ver=1.12.5
+time="2024-02-24T22:30:07.462562-05:00" level=info msg="standalone mode configured" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.462592-05:00" level=info msg="metrics server started on :53083/" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.462593-05:00" level=info msg="app id: subscriber" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.462759-05:00" level=info msg="Dapr trace sampler initialized: DaprTraceSampler(P=1.000000)" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.463177-05:00" level=info msg="local service entry announced: subscriber -> 192.168.1.85:53084" app_id=subscriber component="mdns (nameResolution/v1)" instance=CMMHX4VX06FYL scope=dapr.contrib type=log ver=1.12.5
+time="2024-02-24T22:30:07.463199-05:00" level=info msg="Initialized name resolution to mdns" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.463279-05:00" level=info msg="Loading components…" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.463679-05:00" level=info msg="Waiting for all outstanding components to be processed…" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.463747-05:00" level=warning msg="[DEPRECATION NOTICE] The 'host' argument is deprecated. Use 'connectionString' or individual connection arguments instead: https://docs.dapr.io/reference/components-reference/supported-pubsub/setup-rabbitmq/" app_id=subscriber component="orderpubsub (pubsub.rabbitmq/v1)" instance=CMMHX4VX06FYL scope=dapr.contrib type=log ver=1.12.5
+time="2024-02-24T22:30:07.463835-05:00" level=info msg="rabbitmq pub/sub: connectionCount: current=0 reference=0" app_id=subscriber component="orderpubsub (pubsub.rabbitmq/v1)" instance=CMMHX4VX06FYL scope=dapr.contrib type=log ver=1.12.5
+time="2024-02-24T22:30:07.475875-05:00" level=info msg="rabbitmq pub/sub: connected with connectionCount=1" app_id=subscriber component="orderpubsub (pubsub.rabbitmq/v1)" instance=CMMHX4VX06FYL scope=dapr.contrib type=log ver=1.12.5
+time="2024-02-24T22:30:07.47595-05:00" level=info msg="Component loaded: orderpubsub (pubsub.rabbitmq/v1)" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.47597-05:00" level=info msg="All outstanding components processed" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.47598-05:00" level=info msg="Loading endpoints…" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.47623-05:00" level=info msg="Waiting for all outstanding http endpoints to be processed…" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.476247-05:00" level=info msg="All outstanding http endpoints processed" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.476349-05:00" level=info msg="gRPC server listening on TCP address: :53082" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime.grpc.api type=log ver=1.12.5
+time="2024-02-24T22:30:07.476384-05:00" level=info msg="Enabled gRPC tracing middleware" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime.grpc.api type=log ver=1.12.5
+time="2024-02-24T22:30:07.476391-05:00" level=info msg="Enabled gRPC metrics middleware" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime.grpc.api type=log ver=1.12.5
+time="2024-02-24T22:30:07.476444-05:00" level=info msg="Registering workflow engine for gRPC endpoint: [::]:53082" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime.grpc.api type=log ver=1.12.5
+time="2024-02-24T22:30:07.476482-05:00" level=info msg="API gRPC server is running on port 53082" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.476538-05:00" level=info msg="Enabled max body size HTTP middleware with size 4 MB" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime.http type=log ver=1.12.5
+time="2024-02-24T22:30:07.476552-05:00" level=info msg="Enabled tracing HTTP middleware" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime.http type=log ver=1.12.5
+time="2024-02-24T22:30:07.476559-05:00" level=info msg="Enabled metrics HTTP middleware" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime.http type=log ver=1.12.5
+time="2024-02-24T22:30:07.476761-05:00" level=info msg="HTTP server listening on TCP address: :53081" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime.http type=log ver=1.12.5
+time="2024-02-24T22:30:07.47678-05:00" level=info msg="HTTP server is running on port 53081" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.476787-05:00" level=info msg="The request body size parameter is: 4" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.476813-05:00" level=info msg="gRPC server listening on TCP address: :53084" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime.grpc.internal type=log ver=1.12.5
+time="2024-02-24T22:30:07.476821-05:00" level=info msg="Enabled gRPC tracing middleware" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime.grpc.internal type=log ver=1.12.5
+time="2024-02-24T22:30:07.476832-05:00" level=info msg="Enabled gRPC metrics middleware" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime.grpc.internal type=log ver=1.12.5
+time="2024-02-24T22:30:07.476851-05:00" level=info msg="Internal gRPC server is running on port 53084" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.476923-05:00" level=info msg="application protocol: http. waiting on port 6001.  This will block until the app is listening on that port." app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.680042-05:00" level=info msg="application discovered on port 6001" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.681754-05:00" level=info msg="Application configuration loaded" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.681768-05:00" level=info msg="actors: state store is not configured - this is okay for clients but services with hosted actors will fail to initialize!" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.681822-05:00" level=info msg="Actor runtime started. Actor idle timeout: 1h0m0s. Actor scan interval: 30s" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime.actor type=log ver=1.12.5
+time="2024-02-24T22:30:07.681846-05:00" level=info msg="Configuring workflow engine with actors backend" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime.wfengine type=log ver=1.12.5
+time="2024-02-24T22:30:07.681859-05:00" level=info msg="Registering component for dapr workflow engine..." app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.681882-05:00" level=info msg="Initializing Dapr workflow component" app_id=subscriber component="dapr (workflow.dapr/v1)" instance=CMMHX4VX06FYL scope=dapr.contrib type=log ver=1.12.5
+time="2024-02-24T22:30:07.683081-05:00" level=info msg="app is subscribed to the following topics: [orders] through pubsub=orderpubsub" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime.processor.pubsub type=log ver=1.12.5
+time="2024-02-24T22:30:07.68312-05:00" level=info msg="rabbitmq pub/sub: subscribe to topic/queue 'orders/subscriber-orders'" app_id=subscriber component="orderpubsub (pubsub.rabbitmq/v1)" instance=CMMHX4VX06FYL scope=dapr.contrib type=log ver=1.12.5
+time="2024-02-24T22:30:07.690862-05:00" level=info msg="rabbitmq pub/sub: declaring queue 'subscriber-orders'" app_id=subscriber component="orderpubsub (pubsub.rabbitmq/v1)" instance=CMMHX4VX06FYL scope=dapr.contrib type=log ver=1.12.5
+time="2024-02-24T22:30:07.707564-05:00" level=info msg="dapr initialized. Status: Running. Init Elapsed 245ms" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime type=log ver=1.12.5
+time="2024-02-24T22:30:07.7868-05:00" level=info msg="Placement tables updated, version: 0" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.runtime.actors.placement type=log ver=1.12.5
+Updating metadata for app command: uvicorn app:app
+Updating metadata for appPID: 78710
+You're up and running! Dapr logs will appear here.
+
+
+termination signal received: shutting down
+time="2024-02-25T10:04:15.079354-05:00" level=info msg="Received signal 'interrupt'; beginning shutdown" app_id=subscriber instance=CMMHX4VX06FYL scope=dapr.signals type=log ver=1.12.5
+time="2024-02-25T10:04:15.080265-05:00" level=info msg="rabbitmq pub/sub: subscription for subscriber-orders has context canceled" app_id=subscriber component="orderpubsub (pubsub.rabbitmq/v1)" instance=CMMHX4VX06FYL scope=dapr.contrib type=log ver=1.12.5
+Exited Dapr successfully
+Exited App successfully
