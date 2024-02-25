@@ -20,7 +20,15 @@
 
 ### Run pub/sub application
 
-1. Start pub/sub applications
+1. Install publisher dependencies
+    ```
+    (cd publisher && pip3 install -r requirements.txt)
+    ```
+2. Install subscriber dependencies
+    ```
+    (cd subscriber && pip3 install -r requirements.txt)
+    ```
+3. Start pub/sub applications
     ```
     dapr run -f dapr.yaml
     ```

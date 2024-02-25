@@ -1,8 +1,0 @@
-== APP - publisher == INFO:root:Published data: {"orderId": 1}
-== APP - publisher == INFO:root:Published data: {"orderId": 2}
-== APP - publisher == INFO:root:Published data: {"orderId": 3}
-== APP - publisher == INFO:root:Published data: {"orderId": 4}
-== APP - publisher == INFO:root:Published data: {"orderId": 5}
-== APP - publisher == INFO:root:Published data: {"orderId": 6}
-
-termination signal received: shutting down
